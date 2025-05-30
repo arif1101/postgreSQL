@@ -15,11 +15,18 @@ INSERT INTO teachers (full_name, email, phone, dept_id) VALUES
 INSERT INTO teachers (full_name, email, phone, dept_id) VALUES
 ('Nira', 'naira@univ.edu', '01974644655', 4)
 
-INSERT INTO students (full_name, email, phone, date_of_birth, gender, dept_id, advisor_id) VALUES
-('Mahmud Hasan', 'mahmud@student.edu', '01812345678', '2000-02-15', 'Male', 1, 1),
-('Shimul Akter', 'shimul@student.edu', '01823456789', '1999-07-10', 'Female', 2, 2),
-('Tariq Hossain', 'tariq@student.edu', '01834567890', '2001-05-05', 'Male', 3, 3),
-('Nusrat Jahan', 'nusrat@student.edu', '01845678901', '2002-09-25', 'Female', 4, 4);
+INSERT INTO students (student_id,full_name, email, phone, date_of_birth, gender, dept_id, advisor_id) VALUES
+(20151008,'Mahmud Hasan', 'mahmud@student.edu', '01812345678', '2000-02-15', 'Male', 1, 1),
+(20102033,'Shimul Akter', 'shimul@student.edu', '01823456789', '1999-07-10', 'Female', 2, 2),
+(20223001,'Tariq Hossain', 'tariq@student.edu', '01834567890', '2001-05-05', 'Male', 3, 3),
+(20234010,'Nusrat Jahan', 'nusrat@student.edu', '01845678901', '2002-09-25', 'Female', 4, 4),
+(20207001,'Zakiya Sultana', 'zakiya@student.edu', '01406485235', '2002-12-07', 'Female', 7, 4),
+(20207004,'Setu Barua', 'setu@student.edu', '01758945789', '2000-05-12', 'Female', 7, 4),
+(20207044,'Majharul', 'majharul@student.edu', '01953489651', '2001-06-22', 'Male', 7, 4),
+(20207026,'Shakil', 'shakil@student.edu', '01953879651', '2000-03-11', 'Female', 7, 4),
+(20201044,'Rony', 'rony@student.edu', '01814562789', '2002-06-05', 'Male', 1, 5),
+(20201003,'Ripa', 'ripa@student.edu', '01758964789', '2000-02-22', 'Female', 1, 5),
+(20201015,'Mahren', 'mahren@student.edu', '01958789651', '2001-09-25', 'Female', 1, 5)
 
 INSERT INTO students (full_name, email, phone, date_of_birth, gender, dept_id, advisor_id) VALUES
 ('Rony', 'rony@student.edu', '01814562789', '2002-06-05', 'Male', 1, 5),
